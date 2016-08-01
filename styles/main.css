@@ -1,0 +1,184 @@
+h1 {
+	margin: 0;
+}
+
+.box {
+	box-sizing: border-box;
+
+	/* TESTING SPECIFIC ONLY; PLS REMOVE*/
+	/* border: 1px solid black;
+	min-height: 75px; */
+
+}
+
+.box--float-left {
+	float: left;
+}
+
+.box--float-right {
+	float: right;
+}
+
+.box--one-third{
+	width: 33.333%;
+	padding: 10px;
+	border-right: 1px solid #999
+}
+
+.box--one-third:last child{
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.box--one-fourth {
+	width: 25%;
+	margin: 10px;
+	padding: 1%;
+}
+.article-row {
+	margin: 10px 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.hero-image {
+    background-image:url("../images/coworking.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-box {
+	width: 40%;
+	background-color: rgba(204, 204, 204, 0.6);
+	margin: 3%;
+	padding: 3%
+}
+
+.slogan {
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+.box--flex{
+    display:flex;
+}
+
+.button {
+	text-align: center;
+	padding: 10px;
+	margin:2%;
+	background-color: gray;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: 0px 2px #CCCC00;
+}
+
+.secondstrip {
+	background-color: #C6C6C6;
+	padding: 1%;
+}
+
+.hero-button {
+	background-color: yellow;
+}
+
+.footer {
+	background-color: black;
+	padding: 13px;
+}
+
+.white-text {
+	color: white;
+}
+
+.header { 
+	background-color: black;
+	padding: 8px; 
+	border-bottom: #FFFF00 solid 6px; 
+}
+
+.logo {
+	color: yellow;
+	font-size: 32px;
+}
+
+.navimpt{
+	color: white;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+}
+
+.nav {
+	padding: 1% 2% 1% 2%;
+
+}
+
+.developerout {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.picture {
+	width: 100%;
+	padding: 34%;
+	background-color: #CCCCCC;
+	color: #969696;
+}
+
+.flex-direction {
+	flex-direction: column;
+
+}
+
+.center-text {
+	text-align: center;
+}
+
+.tiny-button {
+	background-color: #666666;
+
+}
+
+.tag-element {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0.1em;
+}
+
+.tag-element li {
+	padding-right: 0.25em; 
+}
+
+.tag-element a {
+	text-decoration: none;
+	display: block;
+    background: #666;
+    padding: 1px 12px;
+    border-radius: 100px;
+    font-size: .75em;
+    margin: 0 5px 5px 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'source sans pro'
+    font-size: 1.2em;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.poloroid {
+	background-color: white
+}
+
+.grey-background {
+	background-color: #CCCCCC;
+}

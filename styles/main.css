@@ -57,9 +57,61 @@ h1 {
 
 .slogan {
 	text-align: center;
-	font-family: merriweather;
+	font-family: 'Merriweather', serif;
 }
 
 .box--flex{
     display:flex;
+}
+
+.button {
+	width: 90%;
+	text-align: center;
+	padding: 10px;
+	margin:2%;
+	background-color: gray;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: 5px 5px 3px #888888;
+}
+
+.secondstrip {
+	background-color: #C6C6C6;
+	padding: 1%;
+}
+
+.hero-button {
+	background-color: yellow;
+}
+
+.footer {
+	background-color: black;
+	padding: 13px;
+}
+
+.white-text {
+	color: white;
+}
+
+.header { 
+	background-color: black;
+	padding: 8px; 
+	border-bottom: #FFFF00 solid 6px; 
+}
+
+.logo {
+	color: yellow;
+	font-size: 32px;
+}
+
+.navimpt{
+	color: white;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+}
+
+.nav {
+	padding: 1% 2% 1% 2%;
 }
